@@ -1,0 +1,43 @@
+@import url("reset.css");
+
+.Carpathians{
+    background-color: chocolate;
+    margin: 5px;
+}
+
+.Carpathians h1{
+    color: blue;
+}
+
+.Carpathians li{
+    color: rgb(169, 37, 230);
+}
+
+.Carpathians__main p{
+    color: blue;
+}
+
+span{
+    color: darkgreen;
+}
+
+h2{
+    color: red;
+}
+
+#Karpatsky p{
+    color: chartreuse;
+}
+
+.Carpathians__footer{
+    background-color: black;
+    margin: 5px;
+}
+
+.Carpathians__footer h3{
+    color: aqua;
+}
+
+.Carpathians__footer li{
+    color: gold;
+}

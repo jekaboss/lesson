@@ -77,3 +77,7 @@ h3{
     font-size: 28px;
     font-weight: 300;
 }
+.react-text p{
+    color: rgb(173, 36, 168);
+    text-shadow: 4px -3px 9px #c72020;
+}

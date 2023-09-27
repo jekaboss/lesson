@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic&display=swap");
+
+/* @import url(fonts.css); */
+@import url(reset.css);
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+.header{
+    margin-top: 10px;
+}
+.container{
+    max-width: 692px;
+    margin: 0 auto;
+}
+.header-img{
+    margin-bottom: 37px;
+}
+.container h1 {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #37393F;
+}
+.header-text{
+    margin-top: 3px;
+    font-weight: 400;
+    line-height: 1.46; 
+}
+
+.container{}
+.section-growth{
+    margin-top: 42px;
+}
+.section-growth h2 {
+    margin-bottom: 12px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #6B77E5;
+}
+.section-benefits{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-benefits img {
+    margin-right: 29px;
+}
+.section-inner{
+    /* margin-left: 9px; */
+}
+.section-inner h3{
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #37393F;
+}
+.section-inner h4{
+    margin: 15px 0 23px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #40DDB6;
+}
+.list{
+    margin-left: 40px;
+}
+.list-item{
+    margin-bottom: 30px;
+}
+
+.section-what{
+    margin-top: 40px;
+    background-color: #FFF9F4;
+}
+.section-wraper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h5{
+    margin-top: 13px;
+    font-family: "DM Serif Text";
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 1.46;
+    color: #0E333D;
+}
+.section-info p{
+    margin-top: 42px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #D06B00;
+}
+.section-text p{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.80;
+}
+.wraper-section{
+    padding: 0 38px 0 0;
+}
+.section-wraper img{
+    margin: 21px 22px 10px 0;
+}
+

@@ -58,8 +58,7 @@
     line-height: 1.65;
 }
 .main__exper{
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
     gap: 21px;
     margin-bottom: 37px;
 }

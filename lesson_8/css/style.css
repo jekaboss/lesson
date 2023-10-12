@@ -318,6 +318,10 @@
     padding-bottom: 62px;
 }
 .fashion__button{
+    color: #3C4242;
+    font-family: 'Causten';
+    font-size: 18px;
+    font-weight: 600;
     padding: 12px 44px;
     border-radius: 8px;
     background: #FFF; 
@@ -326,12 +330,6 @@
 .fashion__button:hover{
     background: #1221ac;
     color: #fff;
-}
-.fashion__button a{
-    color: #3C4242;
-    font-family: 'Causten';
-    font-size: 18px;
-    font-weight: 600;
 }
 .fashion__image{
     background: url('../img/Rectangle2.png') no-repeat;

@@ -311,13 +311,13 @@
     font-size: 34px;
     font-weight: 800;
     line-height: 50px;
+    margin-bottom: 30px;
 }
 .fashion__text{
     color: #FFF;
     font-family: Causten;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 30px;
     padding-bottom: 62px;
 }
 .fashion__button{

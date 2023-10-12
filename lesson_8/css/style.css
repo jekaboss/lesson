@@ -296,8 +296,7 @@
     padding-bottom: 50px;
 }
 .fashion__container{
-    display: flex;
-    justify-content: flex-start;
+    display: inline-flex;
 }
 .fashion__body{
     padding: 183px 74px 174px;

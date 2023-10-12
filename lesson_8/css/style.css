@@ -121,8 +121,7 @@
     margin-bottom: 50px;
 }
 .diskover__ready-with{
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
 }
 .diskover__with{

@@ -155,8 +155,7 @@
     margin-top: 14px;
 }
 .body-projects__row{
-    display: flex;
-    justify-content: space-around;
+    display: inline-flex;
     margin-bottom: 58px;
 }
 .first-item{

@@ -1,0 +1,21 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #817a7a;
+}
+img{
+    max-width: 800px;
+    margin: 10px;
+}
+p{
+    color: #37393F;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.27;
+    color: #fff;
+}

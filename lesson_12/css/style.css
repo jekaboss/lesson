@@ -115,11 +115,16 @@ body{
   width: 100%;
 }
 /* ============================ */
-.main {
+.section {
 	margin-top: 70px;
 }
-.main__container {
+.main-container {
 	padding: 16px;
+}
+.main-container{
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 .item-team {
 	display: inline-block;
@@ -250,7 +255,7 @@ body{
 .hero__stycky-item:not(:last-child) {
   margin-bottom: 20px;
 }
-.hero__text p {
+.hero__text p{
 	font-weight: 300;
 	font-size: 18px;
 }

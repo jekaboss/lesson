@@ -250,7 +250,7 @@ body{
 .hero__stycky-item:not(:last-child) {
   margin-bottom: 20px;
 }
-.hero__text {
+.hero__text p {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1,46;

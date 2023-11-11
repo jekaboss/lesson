@@ -1,0 +1,107 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+	background-color: #817f7f;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+.car{
+  text-align: center;
+}
+.car a{
+	font-size: 56px;
+}
+.car a:hover{
+	color: blue;
+}
+.section-2d__container {
+	margin-top: 100px;
+}
+.methods-2d {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.methods-2d__box {
+	width: 260px;
+	height: 260px;
+	display: inline-block;
+	background-color: aqua;
+	margin: 0 50px 100px 75px;
+}
+.methods-2d__box p{
+	font-size: 27px;
+	color: #000;
+	text-align: center;
+	font-weight: 800;
+	padding: 15px 20px;
+}
+.methods-2d__item {
+	width: 260px;
+	height: 260px;
+	background-color: blue;
+}
+.methods-2d__item--1:hover {
+	transform: translate(20px, 20px);
+}
+.methods-2d__item--2:hover {
+	transform: rotate(21deg);
+}
+.methods-2d__item--3:hover {
+	transform: rotate(-21deg);
+}
+.methods-2d__item--4:hover {
+	transform: scale(0.5);
+}
+.methods-2d__item--5:hover {
+	transform: scaleX(1.8);
+}
+.methods-2d__item--6:hover {
+	transform: scaleY(1.4);
+}
+.methods-2d__item--7:hover {
+	transform: skew(-10deg, 20deg);
+}
+.methods-2d__item--8:hover {
+	transform: skewX(20deg);
+}
+.methods-2d__item--9:hover {
+	transform: skewY(10deg);
+}
+/* ================ */
+.section-3d__container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.methods-3d__box {
+	width: 260px;
+	height: 260px;
+	display: inline-block;
+	background-color: aqua;
+	margin: 0 50px 100px 75px;
+}
+.methods-3d__box p{
+	font-size: 27px;
+	color: #000;
+	text-align: center;
+	font-weight: 800;
+	padding: 15px 20px;
+}
+.methods-3d__item {
+	width: 260px;
+	height: 260px;
+	background-color: blue;
+}
+.methods-3d__item--1:hover {
+	transform: rotateX(100deg);
+}
+.methods-3d__item--2:hover {
+	transform: rotateY(100deg);
+}
+.methods-3d__item--3:hover {
+	transform: rotateZ(65deg);
+}

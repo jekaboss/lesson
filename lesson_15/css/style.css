@@ -112,7 +112,7 @@
   color: #fff;
   font-size: 18px;
   font-weight: 500;
-  transition: background-color 0.3s ease-in-out 0s, color 0.3s sease-in-out 0s;
+  transition: background-color 0.3s, color 0.3s sease-in-out 0s;
 }
 .button:hover {
   background-color: #fff;

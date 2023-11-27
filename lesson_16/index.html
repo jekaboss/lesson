@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<title>lisson_16</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="page__conteiner contactus">
+				<div class="contactus__conteiner">
+					<div class="contactus__ladel">Contact Us</div>
+					<h2 class="contactus__call">Request A Call Back !</h2>
+					<form class="contactus__conteiner-form" action="#" method="GET" enctype="multipart/form-data">
+						<div class="form__main-form">
+							<div class="form__user-information">
+								<input class="form__item" type="text" placeholder="Your Name" name="name">
+								<input class="form__item" type="email" placeholder="Email Address" name="mail">
+								<input class="form__item" type="tel" placeholder="Phone Number" name="number">
+								<input class="form__item" type="text" placeholder="Subject" name="Subject">
+							</div>
+							<textarea class="form__message" name="message" placeholder="Message..."></textarea>
+						</div>
+						<button class="form__button">Submit</button>
+					</form>
+				</div>
+				<div class="page__my-info my-info">
+					<div class="my-info__container">
+						<h5 class="my-info__title">My Info</h5>
+						<div class="my-info__label">Add Address</div>
+						<form action="#" enctype="multipart/form-data" method="GET" class="my-info__form form-my-info">
+							<div class="form-my-info__box">
+								<div class="form-my-info__fname">
+									<label for="fname">First Name*</label><br>
+									<input type="text" id="fname" required="" placeholder="First Name" name="fname">
+								</div>
+								<div class="form-my-info__lname">
+									<label for="lname">Last Name*</label><br>
+									<input type="text" id="lname" required="" placeholder="Last Name" name="lname">
+								</div>
+							</div>
+							<div class="form-my-info__box">
+								<div class="form-my-info__region">
+									<label for="region">Country / Region*</label><br>
+									<input type="text" id="region" required="" placeholder="Country / Region" name="region">
+								</div>
+								<div class="form-my-info__company">
+									<label for="company">Company Name</label><br>
+									<input type="text" id="company" placeholder="Company (optional)" name="company">
+								</div>
+							</div>
+							<div class="form-my-info__box">
+								<div class="form-my-info__adress">
+									<label for="adress">Street Address*</label><br>
+									<input type="text" id="adress" required="" placeholder="House number and street name" name="adress">
+								</div>
+								<div class="form-my-info__apartment">
+									<label for="apartment">Apt, suite, unit</label><br>
+									<input type="text" id="apartment" placeholder="apartment, suite, unit, etc. (optional)" name="apartment">
+								</div>
+							</div>
+							<div class="form-my-info__box">
+								<div class="form-my-info__city">
+									<label for="city">City*</label><br>
+									<input type="text" id="city" required="" placeholder="Town / City" name="city">
+								</div>
+								<div class="form-my-info__state">
+									<label for="state">State*</label><br>
+									<div class="form-my-info__input-wrap form-my-info__input-wrap--relative">
+										<input type="text" id="state" required="" placeholder="State" name="state">
+										<button class="form-my-info__state-button form-my-info__state-button--absolute" type="button">
+											<img src="img/down.svg" alt="down">
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="form-my-info__box">
+								<div class="form-my-info__phone">
+									<label for="phone">Phone*</label><br>
+									<input type="tel" id="phone" required="" placeholder="Phone" name="phone">
+								</div>
+								<div class="form-my-info__code">
+									<label for="code">Postal Code*</label><br>
+									<input type="text" id="code" required="" placeholder="Postal Code" name="code">
+								</div>
+							</div>
+							<div class="form-my-info__message">
+								<label for="message">Delivery Instruction</label><br>
+								<textarea class="form-my-info__textarea" id="message" placeholder="Delivery Instruction"
+									name="message"></textarea>
+							</div>
+							<div class="form-my-info__checkbox-wrap">
+								<div class="form-my-info__checkbox">
+									<input class="form-my-info__input-checkbox" id="check" name="shipping" type="checkbox">
+									<label class="form-my-info__label" for="check">Set as default shipping address</label>
+								</div>
+								<div class="form-my-info__checkbox">
+									<input class="form-my-info__input-checkbox" id="check-02" name="billing" type="checkbox">
+									<label class="form-my-info__label" for="check-02">Set as default billing address</label>
+								</div>
+							</div>
+							<div class="form-my-info__buttons">
+								<button class="form-my-info__button" type="submit">Save</button>
+								<button class="form-my-info__button form-my-info__button--cancel" type="button">Cancel</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="page__check-out check-out">
+					<div class="check-out__container">
+						<h4 class="check-out__title">Check Out</h4>
+						<div class="check-out__label">Billing Details</div>
+						<form action="#" enctype="multipart/form-data" method="GET" class="check-out__form form-check-out">
+							<div class="form-check-out__box">
+								<div class="form-check-out__fname">
+									<label for="fname-check">First Name*</label><br>
+									<input type="text" required="" placeholder="First Name" name="fname">
+								</div>
+								<div class="form-check-out__lname">
+									<label for="lname-check">Last Name*</label><br>
+									<input type="text" required="" placeholder="Last Name" name="lname">
+								</div>
+							</div>
+							<div class="form-check-out__box">
+								<div class="form-check-out__region">
+									<label for="region-check">Country / Region*</label><br>
+									<input type="text" required="" placeholder="Country / Region" name="region">
+								</div>
+								<div class="form-check-out__company">
+									<label for="company-check">Company Name</label><br>
+									<input type="text" placeholder="Company (optional)" name="company">
+								</div>
+							</div>
+							<div class="form-check-out__box">
+								<div class="form-check-out__adress">
+									<label for="adress-check">Street Address*</label><br>
+									<input type="text" required="" placeholder="House number and street name" name="adress">
+								</div>
+								<div class="form-check-out__apartment">
+									<label for="apartment-check">Apt, suite, unit</label><br>
+									<input type="text" placeholder="apartment, suite, unit, etc. (optional)"
+										name="apartment">
+								</div>
+							</div>
+							<div class="form-check-out__box form-check-out__box--three">
+								<div class="form-check-out__city">
+									<label for="city-check">City*</label><br>
+									<input type="text" required="" placeholder="Town / City" name="city">
+								</div>
+								<div class="form-check-out__state">
+									<label for="state-check">State*</label><br>
+									<div class="form-check-out__state-inner form-check-out__state-inner--relative">
+										<input class="form-check-out__input form-check-out__input--padding" type="text" id="state-check" required=""
+											placeholder="State" name="state">
+										<button class="form-check-out__input-button form-check-out__input-button--absolute">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+												<path stroke="#3C4242" stroke-linecap="round" stroke-width="1.5"
+													d="m15 8.333-4.41 4.411a.833.833 0 0 1-1.18 0L5 8.334"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="form-check-out__code">
+									<label for="code-check">Postal Code*</label><br>
+									<input type="text" required="" placeholder="Postal Code" name="code">
+								</div>
+							</div>
+							<div class="form-check-out__box form-check-out__box--one">
+								<div class="form-check-out__phone">
+									<label for="phone-check">Phone*</label><br>
+									<input type="tel" required="" placeholder="Phone" name="phone">
+								</div>
+							</div>
+							<button class="form-check-out__button" type="submit">Continue to delivery</button>
+							<div class="form-check-out__checkbox checkbox-form-check-out">
+								<input class="checkbox-form-check-out__input" name="save" type="checkbox">
+								<label class="checkbox-form-check-out__label" for="check-faster">Save my information for a faster
+									checkout</label>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="page__payment payment">
+					<div class="payment__container">
+						<form class="payment__form form-payment">
+							<div class="form-payment__wrap">
+								<h4 class="form-payment__title form-title">Shipping Address</h4>
+								<div class="form-payment__text text-form">Select the address that matches your card or payment method.</div>
+								<fieldset class="form-payment__radio radio-form">
+									<div class="radio-form__address">
+										<input checked="" name="address" value="billing" type="radio">
+										<label for="bill-address">Same as Billing address</label>
+									</div>
+									<div class="radio-form__address">
+										<input name="address" value="shipping" type="radio">
+										<label for="shipp-address">Use a different shipping address</label>
+									</div>
+								</fieldset>
+							</div>
+							<div class="form-payment__wrap">
+								<h4 class="form-payment__title form-title form-title--margin">Shipping Method</h4>
+								<div class="form-payment__delivery">
+									<div class="form-payment__date">Arrives by Monday, June 7</div>
+									<div class="form-payment__charges-wrap">
+										<div class="form-payment__charges-inner">
+											<div class="form-payment__charges">Delivery Charges</div>
+											<div class="form-payment__apply">Additional fess may apply</div>
+										</div>
+										<div class="form-payment__price">$5.00</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-payment__method method">
+								<h4 class="method__title form-title">Payment Method</h4>
+								<div class="method__text text-form">All transactions are secure and encrypted.</div>
+								<fieldset class="method__radio radio-method">
+									<div class="radio-method__card">
+										<div class="radio-method__inner">
+											<input checked="" name="method" value="card" type="radio">
+											<div class="radio-method__text-wrap">
+												<label for="card">Credit Card</label>
+												<div class="radio-method__text">We accept all major credit cards.</div>
+											</div>
+										</div>
+										<ul class="radio-methods">
+											<li class="radio-method__item">
+												<img src="img/pay.svg" alt="pay">
+											</li>
+											<li class="radio-method__item">
+												<img src="img/visa.svg" alt="Visa">
+											</li>
+											<li class="radio-method__item">
+												<img src="img/paypal.svg" alt="PayPal">
+											</li>
+											<li class="radio-method__item">
+												<img src="img/paypass.svg" alt="Paypass">
+											</li>
+										</ul>
+										<ul class="radio-method__inputs">
+											<li class="radio-method__input">
+												<input type="tel" placeholder="Card number" name="number-card">
+											</li>
+											<li class="radio-method__input">
+												<input type="text" placeholder="Name of card" name="name-card">
+											</li>
+											<li class="radio-method__input">
+												<input type="tel" placeholder="Expiration date (MM/YY)" name="date">
+											</li>
+											<li class="radio-method__input radio-method__input--relative">
+												<input type="password" placeholder="Security Code" name="secure-code">
+												<button class="radio-method__button-eye radio-method__button-eye--absolute" type="button">
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+														<path stroke="#807D7E" stroke-width="1.5"
+															d="M2.424 10.976a2.34 2.34 0 0 1 0-1.953A8.335 8.335 0 0 1 10 4.167a8.335 8.335 0 0 1 7.576 4.856 2.34 2.34 0 0 1 0 1.953A8.335 8.335 0 0 1 10 15.833a8.335 8.335 0 0 1-7.576-4.857Z">
+														</path>
+														<path stroke="#807D7E" stroke-width="1.5" d="M12.5 10a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"></path>
+													</svg>
+												</button>
+											</li>
+										</ul>
+									</div>
+									<div class="radio-method__cash">
+										<div class="radio-method__inner radio-method__inner--padding">
+											<input id="cash" name="method" value="cash" type="radio">
+											<div class="radio-method__text-wrap">
+												<label for="cash">Cash on delivery</label>
+												<div class="radio-method__text">Pay with cash upon delivery.</div>
+											</div>
+										</div>
+									</div>
+									<div class="radio-method__paypal radio-method__paypal--padding">
+										<div class="radio-method__inner">
+											<input id="paypal" name="method" value="paypal" type="radio">
+											<label for="paypal">Paypal</label>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+							<button class="form-payment__button" type="submit">Pay Now</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@media (min-width: 1600px){
+	.rings::after {
+		display: block;
+	}
+}
+/* --------------------------------- */
+@media (max-width: 1559.98px){
+	.why-choose__content {
+		padding: 70px 0;
+	}
+}
+/* --------------------------------- */
+@media (max-width: 1259.98px){
+	.why-choose__container {
+		gap: 70px;
+	}
+	.why-choose__content {
+		flex: 0 0 510px;
+	}
+	.why-choose__img {
+		width: calc(100% - 510px - 70px);
+	}
+}
+/* --------------------------------- */
+@media (max-width: 991.98px){
+	.earrings{
+		margin-bottom: 120px;
+		padding: 60px 0;
+	}
+	.header-block-earrigs__title{
+		font-size: 40px;
+	}
+	.tabs__nav {
+		margin-bottom: 50px;
+	}
+	.item-earring__link, .item-earring__price {
+		font-size: 20px;
+	}
+	.block-header-gold-earrings {
+		margin: 0 auto 40px;
+	}
+	.block-header-gold-earrings__title {
+		font-size: 40px;
+	}
+	.block-header-gold-earrings__subtitle {
+		font-size: 26px;
+	}
+	.gold-earrings__items {
+		margin: 0 -15px 50px;
+	}
+	.item-gold-earring__link, .item-gold-earring__price {
+		font-size: 20px;
+	}
+	.rings {
+		padding: 90px 0 100px;
+	}
+	.block-header-rings {
+		margin-bottom: 40px;
+	}
+	.block-header-rings__title {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.item-ring__name {
+		margin-bottom: 10px;
+	}
+	.item-ring__link {
+		font-size: 20px;
+	}
+	.why-choose__container {
+		gap: 0;
+		padding: 0 15px;
+	}
+	.why-choose__content {
+		flex: 0 0 100%;
+	}
+	.why-choose__img {
+		display: none;
+	}
+}
+/* --------------------------------- */
+@media (max-width: 767.98px){
+	.earrings{
+		margin-bottom: 80px;
+		padding: 50px 0;
+	}
+	.earrings__column {
+		flex: 0 0 33.3333%;
+	}
+	.gold-earrings__column {
+		flex: 0 0 33.3333%;
+	}
+	.rings {
+		padding: 50px 0;
+	}
+	.rings__column {
+		flex: 0 0 50%;
+	}
+}
+/* --------------------------------- */
+@media (max-width: 639.98px){
+	.earrings__column {
+		flex: 0 0 50%;
+	}
+	.gold-earrings {
+		margin-bottom: 60px;
+	}
+	.gold-earrings__column {
+		flex: 0 0 50%;
+	}
+	.item-gold-earring__content {
+		text-align: center;
+	}
+	.why-choose__content {
+		padding: 50px 0;
+	}
+	.why-choose__text {
+		margin-bottom: 25px;
+	}
+	.counter__element {
+		padding: 20px;
+	}
+}
+/* --------------------------------- */
+@media (max-width: 479.98px){
+	.earrings{
+		padding: 30px 0;
+	}
+	.header-block-earrigs__title{
+		margin-bottom: 16px;
+		font-size: 36px;
+	}
+	.tabs__nav {
+		gap: 25px;
+		margin-bottom: 35px;
+	}
+	.item-earring__link, .item-earring__price {
+		font-size: 18px;
+	}
+	.block-header-gold-earrings {
+		margin: 0 auto 30px;
+	}
+	.block-header-gold-earrings__title {
+		margin-bottom: 16px;
+		font-size: 36px;
+	}
+	.item-gold-earring__link, .item-gold-earring__price {
+		font-size: 18px;
+	}
+	.block-header-rings {
+		text-align: center;
+	}
+	.rings__column {
+		flex: 0 0 100%;
+	}
+	.why-choose__point {
+		flex: 0 0 100%;
+	}
+}
+/* --------------------------------- */
+@media (max-width: 359.98px){
+	.tabs__nav{
+		gap: 20px;
+	}
+	.earrings__column {
+		flex: 0 0 100%;
+	}
+	.item-earring__link, .item-earring__price {
+		font-size: 20px;
+	}
+	.gold-earrings__column {
+		flex: 0 0 100%;
+	}
+	.item-gold-earring__link, .item-gold-earring__price {
+		font-size: 20px;
+	}
+}
+/* --------------------------------- */
+@media (any-hover: hover){
+	.tabs__button:hover::before{
+		width: 100%;
+	}
+	.item-earring:hover .item-earring__img img {
+		transform: scale(1.08);
+	}
+	.item-gold-earring:hover .item-gold-earring__img img{
+		transform: scale(1.1);
+	}
+	.item-gold-earring__link:hover{
+		color: #9c9c9c;
+	}
+	.gold-earrings__button:hover::before{
+		height: 100%;
+	}
+	.gold-earrings__button:hover span {
+		color: #000;
+	}
+	.item-ring__link:hover{
+		color: #F55529;
+	}
+	.item-ring__more:hover{
+		color: #4b4b4b;
+	}
+	.item-ring__more:hover + .item-ring__arrow {
+		transform: translateX(-7px);
+	}
+	.point-why-choose__link:hover::before{
+		width: 0;
+	}
+}

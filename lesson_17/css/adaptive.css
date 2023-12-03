@@ -162,8 +162,14 @@
 	.tabs__nav{
 		gap: 20px;
 	}
+	.earrings__items{
+		margin: 0 32px;
+	}
 	.earrings__column {
 		flex: 0 0 100%;
+	}
+	.rings__items{
+		margin: 0 7px;
 	}
 	.item-earring__link, .item-earring__price {
 		font-size: 20px;

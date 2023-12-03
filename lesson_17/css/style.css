@@ -47,6 +47,7 @@
 	margin-bottom: 23px;
 	font-family: "DM Serif Text", sans-serif;
 	font-size: 48px;
+	color: #fff;
 }
 .header-block-earrigs__subtitle {
 	font-family: "Raleway", sans-serif;
@@ -139,6 +140,7 @@
 	font-weight: 700;
 	line-height: 1.4;
 	transition: color .3s ease-in-out;
+	color: #fff;
 }
 .item-earring__link::before {
 	content: '';
@@ -151,6 +153,7 @@
 	z-index: 3;
 	font-weight: 700;
 	line-height: 1.4;
+	color: #fff;
 }
 /* =============================================== */
 
@@ -370,6 +373,7 @@
 	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
+	color: #fff;
 }
 .why-choose__label::before {
 	content: '';
@@ -386,12 +390,16 @@
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 1.21;
+	color: #fff;
 }
 .why-choose__text {
 	margin-bottom: 36px;
 	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	line-height: 1.46;
+}
+.why-choose__text p{
+	color: #fff;
 }
 .why-choose__text p:not(:last-child) {
 	margin-bottom: 15px;
@@ -437,12 +445,14 @@
 	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
+	color: #fff;
 }
 .counter__label {
 	margin-bottom: 4px;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	line-height: 1.35;
+	color: #fff;
 }
 .coounter__title {
 	font-family: 'Poppins', sans-serif;
@@ -482,6 +492,7 @@
 .point-why-choose__text,
 .point-why-choose__rating {
 	font-weight: 400;
+	color: #fff;
 }
 .point-why-choose__rating {
 	color: #FFB342;

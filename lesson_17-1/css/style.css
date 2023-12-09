@@ -582,4 +582,7 @@
 	.value-provide__link:hover {
 		text-decoration: underline;
 	}
+	.popular-products__button:hover{
+		background-color: #f69673;
+	}
 }

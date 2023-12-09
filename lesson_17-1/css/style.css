@@ -381,14 +381,13 @@
 	height: 100%;
 	aspect-ratio: 868 / 741;
 	object-fit: cover;
-	/* vertical-align: top; */
 }
 .value-provide__link {
 	color: #40ddb6;
 	font-family: "Inter", sans-serif;
 	font-size: 18px;
 	font-weight: 600;
-	line-height: 1.22; /* 22/18 */
+	line-height: 1.22;
 	text-transform: capitalize;
 	transition: text-decoration 0.3s ease;
 }
@@ -570,11 +569,10 @@
 	}
 	.products__link-item:hover .item-product__img--active {
 		transform: scale(1.05);
-		
 	}
-	.popular-products__link-item:hover .item-product__img--white {
+	.popular-products__link-item:hover 
+	.item-product__img--white {
 		transform: scale(1.05);
-		
 	}
 	.item-block__link-img img:hover {
 		transform: scale(1.05);

@@ -74,6 +74,7 @@
 .products__item--lin{
 	text-decoration: underline;
 }
+
 .products__gold-items,
 .popular-products__items {
 	display: flex;
@@ -486,7 +487,7 @@
 		min-width: 43.7%;
 	}
 	.provide__value {
-		    justify-content: center;
+		justify-content: center;
 	}
 }
 @media (max-width: 700px) {

@@ -71,6 +71,9 @@
 	text-decoration: underline 2px rgba(255, 255, 255, 0);
 	transition: all 0.3s;
 }
+.products__item--lin{
+	text-decoration: underline;
+}
 .products__gold-items,
 .popular-products__items {
 	display: flex;

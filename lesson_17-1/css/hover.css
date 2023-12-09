@@ -1,0 +1,26 @@
+@media (any-hover: hover){
+	.products__item-link:hover {
+		text-decoration-color: #fff;
+	}
+	.products__link-item:hover .item-product__name--white {
+		text-decoration-color: #fff;
+	}
+	.products__link-item:hover .item-product__img--active {
+		transform: scale(1.05);
+		
+	}
+	.popular-products__link-item:hover .item-product__img--white {
+		transform: scale(1.05);
+		
+	}
+	.item-block__link-img img:hover {
+		transform: scale(1.05);
+	}
+	.item-block__link-title:hover {
+		text-decoration-color: #000;
+		text-shadow: 0px 0px 0.7px #000;
+	}
+	.item-block__link-more:hover::after {
+		transform: scale(1.1);
+	}
+}

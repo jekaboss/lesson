@@ -545,7 +545,7 @@
 		row-gap: 10px;
 	}
 }
-@media (min-width: 1440px) {
+@media (min-width: 1484px) {
 	.block {
 		background: #fefaf4 url("../img/pngegg.svg") 100% 115% / auto no-repeat;
 	}

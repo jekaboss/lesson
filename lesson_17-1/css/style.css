@@ -482,6 +482,9 @@
 		flex: 0 0 calc(43.7% + ((100vw - 1250px) / 2));
 		min-width: 43.7%;
 	}
+	.provide__value {
+		    justify-content: center;
+	}
 }
 @media (max-width: 700px) {
 	.block__headers {

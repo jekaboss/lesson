@@ -551,6 +551,9 @@
 	.item-block__content {
 		row-gap: 10px;
 	}
+	.provide__value{
+		justify-content: flex-start;
+	}
 }
 @media (min-width: 1484px) {
 	.block {

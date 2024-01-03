@@ -1,0 +1,6 @@
+@mixin text-color($yourColor){
+    color: $yourColor; 
+}
+@mixin border-color($yourBorder){
+    border: 1px solid $yourBorder;
+}

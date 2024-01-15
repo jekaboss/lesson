@@ -1862,7 +1862,7 @@ body {
 }
 .grow-business__star:after {
   content: "";
-  background: url("../img/grow/Star.svg") center/cover no-repeat;
+  background: url("../img/grow/Vector1.svg") center/cover no-repeat;
   width: 1.0625rem;
   height: 1.0625rem;
   -ms-flex-preferred-size: 1.0625rem;

@@ -1213,7 +1213,7 @@ body {
 		gap: toRem(5);
 		&:after {
 			content: "";
-			background: url('../img/grow/star.svg') center / cover no-repeat;
+			background: url('../img/star.svg') center / cover no-repeat;
 			width: toRem(17);
 			height: toRem(17);
 			flex-basis: toRem(17);

@@ -1,0 +1,43 @@
+@use "sass:math";
+
+@import "_reset.scss";
+
+@import "_fonts.scss";
+
+@import "_functions.scss";
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1170;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+body {
+	color: #7d7d7d;
+	font-family: "Inter";
+	font-size: 18px;
+}
+
+.wrapper {
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	& .main {
+		flex-grow: 1;
+	}
+}
+
+//--------------------------------------------------------
+
+[class*="__container"] {
+	max-width: toRem(1248);
+	padding: 0 toRem(15);
+	margin: 0 auto;
+}
